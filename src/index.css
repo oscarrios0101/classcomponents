@@ -1,0 +1,136 @@
+/* General styles */
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background-color: #f0f0f0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* --------------------ProductCard--------------------- */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+
+.product-card h3 {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.product-card .price {
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #007bff;
+}
+
+.product-card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+  background-color: #0056b3;
+}
+
+.product-card .details {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #eee;
+  text-align: left;
+}
+
+.product-card .details ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* --------------------Rating--------------------- */
+.rating {
+  display: inline-flex;
+}
+
+.rating span {
+  font-size: 1.5em;
+  margin: 0 2px;
+  color: #ccc;
+}
+
+.rating .filled-star {
+  color: gold;
+}
+
+/* --------------------WorkflowExplanation--------------------- */
+.workflow-explanation {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.workflow-explanation h2 {
+  margin-bottom: 10px;
+  color: #333; /* Darker heading color */
+}
+
+.workflow-explanation ol {
+  padding-left: 20px;
+}
+
+.workflow-explanation li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.workflow-explanation strong {
+  font-weight: 600;
+}
+
+.workflow-explanation code {
+  background-color: #f4f4f4;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.workflow-explanation p {
+  margin-top: 10px;
+}
